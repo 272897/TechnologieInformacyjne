@@ -6,8 +6,9 @@
 \graphicspath{{images/}} 
 \usepackage{booktabs, makecell, longtable}
 \usepackage{needspace}
+\usepackage{pgfplots}
 %\usepackage[font=scriptsize]{caption} 
-
+\usepackage{hyperref}
 
 
 \title{Spadek swobodny}
@@ -54,117 +55,158 @@ s=\frac{gt^2}{2}
 \textbf{czas[s]} & \textbf{droga[m]} \\
 \hline
 \endhead
-\caption{Pomiary drogi i czasu w spadku swobodnym.}
-\multicolumn{2}{r}{\textit{}} \\
 \endfoot
 \hline
 \caption{Pomiary drogi i czasu w spadku swobodnym.}
 \endlastfoot
+0.1  &2.10 \\ \hline
+0.2  &0.72 \\ \hline
+0.3  &3.37 \\ \hline
+0.4  &-2.42 \\ \hline
+0.5  &1.28 \\ \hline
+0.6  &-4.55 \\ \hline
+0.7 &3.61 \\ \hline
+0.8 &0.37 \\ \hline
+0.9 &1.39 \\ \hline
+1 &-0.87 \\ \hline
+1.1 &3.70 \\ \hline
+1.2 &3.57 \\ \hline
+1.3 &6.24 \\ \hline
+1.4 &11.07 \\ \hline
+1.5 &5.71 \\ \hline
+1.6 &10.41 \\ \hline
+1.7 &17.49 \\ \hline
+1.8 &28.09 \\ \hline
+1.9 &10.46 \\ \hline
+2 &22.71 \\ \hline
+2.1 &10.73 \\ \hline
+2.2 &26.81 \\ \hline
+2.3 &27.38 \\ \hline
+2.4 &26.04 \\ \hline
+2.5 &36.09 \\ \hline
+2.6 &35.11 \\ \hline
+2.7 &41.39 \\ \hline
+2.8 &51.48 \\ \hline
+2.9 &40.17 \\ \hline
+3 &50.47 \\ \hline
+3.1 &56.18 \\ \hline
+3.2 &43.53 \\ \hline
+3.3 &52.09 \\ \hline
+3.4 &53.14 \\ \hline
+3.5 &60.04 \\ \hline
+3.6 &65.69 \\ \hline
+3.7 &64.20 \\ \hline
+3.8 &71.27 \\ \hline
+3.9 &76.51 \\ \hline
+4 &77.67 \\ \hline
+4.1 &76.56 \\ \hline
+4.2 &87.65 \\ \hline
+4.3 &91.20 \\ \hline
+4.4 &98.04 \\ \hline
+4.5 &101.50 \\ \hline
+4.6 &108.87 \\ \hline
+4.7 &120.35 \\ \hline
+4.8 &111.50 \\ \hline
+4.9 &115.06 \\ \hline
+5 &118.79 \\ \hline
+5.1 &137.21 \\ \hline
+5.2 &131.92 \\ \hline
+5.3 &137.15 \\ \hline
+5.4 &143.13 \\ \hline
+5.5 &150.23 \\ \hline
+5.6 &155.95 \\ \hline
+5.7 &157.36 \\ \hline
+5.8 &158.97 \\ \hline
+5.9 &161.51 \\ \hline
+6 &178.87 \\ \hline
+6.1 &179.55 \\ \hline
+6.2 &185.25 \\ \hline
+6.3 &197.05 \\ \hline
+6.4 &197.62 \\ \hline
+6.5 &206.50 \\ \hline
+6.6 &211.95 \\ \hline
+6.7 &216.29 \\ \hline
+6.8 &227.10 \\ \hline
+6.9 &230.50 \\ \hline
+7 &234.99 \\ \hline
+7.1 &251.13 \\ \hline
+7.2 &250.85 \\ \hline
+7.3 &263.66 \\ \hline
+7.4 &271.97 \\ \hline
+7.5 &274.83 \\ \hline
+7.6 &284.23 \\ \hline
+7.7 &287.78 \\ \hline
+7.8 &301.11 \\ \hline
+7.9 &311.52 \\ \hline
+8 &312.37 \\ \hline
+8.1 &327.10 \\ \hline
+8.2 &336.05 \\ \hline
+8.3 &345.25 \\ \hline
+8.4 &343.64 \\ \hline
+8.5 &359.45 \\ \hline
+8.6 &359.21 \\ \hline
+8.7 &360.50 \\ \hline
+8.8 &377.88 \\ \hline
+8.9 &390.69 \\ \hline
+9 &400.54 \\ \hline
+9.1 &400.62 \\ \hline
+9.2 &412.81 \\ \hline
+9.3 &417.95 \\ \hline
+9.4 &427.43 \\ \hline
+9.5 &439.56 \\ \hline
+9.6 &452.64 \\ \hline
+9.7 &467.05 \\ \hline
+9.8 &467.05 \\ \hline
+9.9 &482.22 \\ \hline
+10 &485.93  \\ \hline
 
-0,2                                & 6,03                               \\ \hline
-0,3                                & 0,89                               \\ \hline
-0,4                                & 9,90                                \\ \hline
-0,5                                & 2,41                               \\ \hline
-0,6                                & 4,06                               \\ \hline
-0,9                                & 4,96                               \\ \hline
-1                                  & 4,31                               \\ \hline
-1,1                                & 2,42                               \\ \hline
-1,2                                & 10,3                               \\ \hline
-1,3                                & 20,8                               \\ \hline
-1,4                                & 7,52                               \\ \hline
-1,5                                & 12,07                              \\ \hline
-1,6                                & 19,63                              \\ \hline
-1,7                                & 14,61                              \\ \hline
-1,8                                & 20,52                              \\ \hline
-1,9                                & 16,33                              \\ \hline
-2                                  & 19,13                              \\ \hline
-2,1                                & 13,83                              \\ \hline
-2,2                                & 20,50                               \\ \hline
-2,3                                & 24,12                              \\ \hline
-2,4                                & 22,33                              \\ \hline
-2,5                                & 19,97                              \\ \hline
-2,6                                & 39,08                              \\ \hline
-2,7                                & 34,06                              \\ \hline
-2,8                                & 37,68                              \\ \hline
-2,9                                & 38,56                              \\ \hline
-3                                  & 48,74                              \\ \hline
-3,1                                & 51,93                              \\ \hline
-3,2                                & 46,24                              \\ \hline
-3,3                                & 56,29                              \\ \hline
-3,4                                & 51,89                              \\ \hline
-3,5                                & 63,67                              \\ \hline
-3,6                                & 53,97                              \\ \hline
-3,7                                & 63,76                              \\ \hline
-3,8                                & 66,47                              \\ \hline
-3,9                                & 71,43                              \\ \hline
-4                                  & 76,27                              \\ \hline
-4,1                                & 75,92                              \\ \hline
-4,2                                & 83,52                              \\ \hline
-4,3                                & 91,83                              \\ \hline
-4,4                                & 94,27                              \\ \hline
-4,5                                & 104,06                             \\ \hline
-4,6                                & 96,75                              \\ \hline
-4,7                                & 106,95                             \\ \hline
-4,8                                & 116,24                             \\ \hline
-4,9                                & 111,09                             \\ \hline
-5                                  & 125,66                             \\ \hline
-5,1                                & 132,48                             \\ \hline
-5,2                                & 121,86                             \\ \hline
-5,3                                & 135,51                             \\ \hline
-5,4                                & 145,09                             \\ \hline
-5,5                                & 143,14                             \\ \hline
-5,6                                & 157,81                             \\ \hline
-5,7                                & 169,16                             \\ \hline
-5,8                                & 163,54                             \\ \hline
-5,9                                & 175,80                              \\ \hline
-6                                  & 178,04                             \\ \hline
-6,1                                & 179,60                              \\ \hline
-6,2                                & 189,44                             \\ \hline
-6,3                                & 186,52                             \\ \hline
-6,4                                & 200,34                             \\ \hline
-6,5                                & 197,32                             \\ \hline
-6,6                                & 220,50                              \\ \hline
-6,7                                & 209,12                             \\ \hline
-6,8                                & 219,68                             \\ \hline
-6,9                                & 225,51                             \\ \hline
-7                                  & 250,99                             \\ \hline
-7,1                                & 250,13                             \\ \hline
-7,2                                & 251,82                             \\ \hline
-7,3                                & 264,08                             \\ \hline
-7,4                                & 264,25                             \\ \hline
-7,5                                & 273,44                             \\ \hline
-7,6                                & 285,62                             \\ \hline
-7,7                                & 292,98                             \\ \hline
-7,8                                & 297,30                              \\ \hline
-7,9                                & 307,21                             \\ \hline
-8                                  & 315,16                             \\ \hline
-8,1                                & 325,74                             \\ \hline
-8,2                                & 335,34                             \\ \hline
-8,3                                & 338,86                             \\ \hline
-8,4                                & 349,68                             \\ \hline
-8,5                                & 355,44                             \\ \hline
-8,6                                & 362,54                             \\ \hline
-8,7                                & 373,27                             \\ \hline
-8,8                                & 374,88                             \\ \hline
-8,9                                & 385,95                             \\ \hline
-9                                  & 397,71                             \\ \hline
-9,1                                & 401,63                             \\ \hline
-9,2                                & 420,49                             \\ \hline
-9,3                                & 421,85                             \\ \hline
-9,4                                & 429,72                             \\ \hline
-9,5                                & 441,83                             \\ \hline
-9,6                                & 457,64                             \\ \hline
-9,7                                & 462,16                             \\ \hline
-9,8                                & 472,57                             \\ \hline
-9,9                                & 480,43                             \\ \hline
-10                                 & 482,48                             \\ \hline
+
 \end{longtable}
 \end{center}
 
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+    title={Wykres pomiarów drogi od czasu w spadku swobodnym},
+    xlabel={t [s]},
+    ylabel={s [m]},
+    xmin=0, xmax=10,
+    ymin=0, ymax=500,
+    xtick={0,1,2,3,4,5,6,7,8,9,10},
+    ytick distance=40,
+    legend pos=north west,
+    ymajorgrids=true,
+    grid style=dashed,
+    enlargelimits=false,
+    height=10cm,
+    width=12cm,
+]
+\addplot[
+mesh,
+domain=-10:10,
+smooth,
+thin,
+orange,
+]
+{(9.81*(x^2))/2};
 
+
+\addplot+[only marks, mark size=0.7pt, color=blue, each nth point={5}]
+  plot [error bars/.cd, y dir=both, y explicit]
+  table [y error minus=error] {toto.csv};
+
+  
+\end{axis}
+\end{tikzpicture}
+\end{center}
 
 \section{Wnioski}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla magna tellus, eu porta justo porttitor eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec volutpat vehicula enim sed pellentesque. Donec massa augue, imperdiet eu maximus vel, accumsan vitae lectus. Praesent eget tristique massa. Aliquam viverra commodo varius. 
 
+\tableofcontents
+\hypersetup{linktocpage}
+
 \end{document}
+
+
